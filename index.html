@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h1>BASE APPAREL</h1> -->
+    <div class="base">
+      <div class="content">
+        <img src="images/logo.svg" class="logo" />
+        <div class="mobile">
+          <img src="images/hero-mobile.jpg" class="bg-mobile" alt="background-mobile" >
+        </div>
+        
+        <div class="content1">
+          <div id="color-change">We're</div>
+          coming soon
+        </div>
+        <div class="content2">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </div>
+
+        <form id="form" >
+          <div class="input">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+            />
+            <img src="images/icon-error.svg" alt="error" class="error-icon" />
+            <div class="arrow" id="xy">
+              <img src="images/icon-arrow.svg" class="icon-arrow" />
+            </div>
+          </div>
+          <small>Please provide a valid email</small>
+        </div>
+        </form>
+
+      <img src="images/hero-desktop.jpg" class="hero" />
+    </div>
+
+    <!-- <script>
+      const email=document.getElementById('email');
+      document.getElementById("xy").addEventListener("click",function(){
+        const emailVal=email.value;
+
+        // Check if it is valid or not
+        
+        document.getElementById('form').classList.add('error');
+      })
+      // document.getElementById("xy").addEventListener("click", function () {
+      //   let img = document.createElement("img");
+      //   img.setAttribute("src", "images/icon-error.svg");
+      //   img.setAttribute("class", "error");
+      //   // img.src = "images/icon-error.svg";
+      //   document.body.appendChild(img);
+      // });
+    </script> -->
+    <footer id="footer">
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Khushi Agrawal</a>.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
