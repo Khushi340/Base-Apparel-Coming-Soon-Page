@@ -8,7 +8,7 @@ document.getElementById("xy").addEventListener("click", function () {
     form.classList.add("error");
   } else {
     form.classList.remove("error");
-    document.body.innerHTML = "Thank You!";
+    document.body.innerHTML = `<div style="display:flex; align-items:center;justify-content:center"><h1>Thank You!</h1></div>`
   }
 });
 
