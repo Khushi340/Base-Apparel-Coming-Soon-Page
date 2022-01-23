@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://sharp-boyd-2a9178.netlify.app/)
+- Live Site URL: (https://khushi-agrawal-2a9178.netlify.app/)
 
 ## My process
 
@@ -94,7 +94,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Khushi Agrawal](https://sharp-boyd-2a9178.netlify.app/)
+- Website - [Khushi Agrawal](https://khushi-agrawal-2a9178.netlify.app/)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
